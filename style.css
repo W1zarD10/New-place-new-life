@@ -1,4 +1,4 @@
-body{
+.page{
     margin: 42px auto 0;
     padding: 0;
     background-color: #101010;
@@ -14,7 +14,7 @@ p{
     margin: 0;
     padding: 0;
 }
-.header-line{
+.header__line{
     margin: 43px 0 96px;
 }
 .profile{
@@ -26,12 +26,13 @@ p{
 .photo{
     margin-right: 36px;
 }
-.profile-info{
+.profile__info{
     max-height :175px; 
     display: flex;
     align-items: center;
+    column-gap: 36px;
 }
-.profile-name{
+.profile__name{
     font-size: 40px;
     font-weight: 800;
     line-height: 160%;
@@ -39,28 +40,28 @@ p{
     align-items: center;
     column-gap: 21px;
 }
-.profile-p{
+.profile__job{
     font-size: 20px;
     font-weight: 800;
     line-height: 160%;
 }
-.btn-delete{
+.profile__activity-btn{
     background-color: transparent;
     border: none;   
     cursor: pointer;
 }
-.btn-add{
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-}
-.block{
+.profile__bio{
     display: flex;
     flex-direction: column;
 }
-.edit{
-    max-height: 24px;
-    max-width: 24px;
+.prodile__bio_string{
+    display: flex;
+    column-gap: 21px;
+    align-items: center;
+}
+.profile__bio-btn{
+    background-color: transparent;
+    border: none;
     cursor: pointer;
 }
 .carts{
@@ -76,7 +77,7 @@ p{
     border-radius: 20px;
     position: relative;
 }
-.cart-texts{
+.cart__texts{
     background-color: white;
     display: flex;
     column-gap: 158px;
@@ -86,27 +87,27 @@ p{
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-.cart-text{
+.cart__title{
     font-size: 36px;
     font-weight: 800;
     line-height: 160%;
 }
-.like{
+.cart__like-img{
     width: 34px;
     height: 34px;
 }
-.cart-img{
+.cart__main-img{
     padding: 0;
     margin: 0;
     display: block;
     position: relative;
 }
-.like-btn{
+.cart__like-btn{
     background-color: transparent;
     border: none;
     cursor: pointer;
 }
-.cart-btn{
+.cart__delete-btn{
     position: absolute;
     border: none;
     background-color: transparent;
@@ -114,9 +115,25 @@ p{
     top: 24px;
     left: 336px;
 }
-.footer-line{
+.footer__line{
     margin: 126px 0 64px;
 }
-.footer-logo{
+.footer__logo-img{
     float: right;
+}
+.profile__bio-btn :hover{
+    opacity: 60%;
+    transition: 0.7s;
+}
+.profile__activity-btn :hover {
+    opacity: 60%;
+    transition: 0.7s;
+}
+.cart__delete-btn :hover{
+    opacity: 60%;
+    transition: 0.7s;
+}
+.cart__like-btn :hover{
+    opacity: 60%;
+    transition: 0.7s;
 }
