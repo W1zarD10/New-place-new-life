@@ -1,0 +1,9 @@
+.cart__like-btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.cart__like-btn :hover{
+    opacity: 60%;
+    transition: 0.7s;
+}

@@ -1,0 +1,10 @@
+.cart__texts{
+    background-color: white;
+    display: flex;
+    column-gap: 158px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 43px 22px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

@@ -1,0 +1,12 @@
+.cart__delete-btn{
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    top: 24px;
+    left: 336px;
+}
+.cart__delete-btn :hover{
+    opacity: 60%;
+    transition: 0.7s;
+}

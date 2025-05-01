@@ -1,0 +1,5 @@
+.prodile__bio_string{
+    display: flex;
+    column-gap: 21px;
+    align-items: center;
+}

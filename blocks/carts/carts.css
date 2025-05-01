@@ -1,0 +1,7 @@
+.carts{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 43px 30px;
+    color: black;
+    margin-top: 96px;
+}

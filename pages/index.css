@@ -1,0 +1,40 @@
+@import url(../vendor/normalize.css);
+
+@import url(../fonts/fonts.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo-img/header__logo-img.css);
+@import url(../blocks/header/__line/header__line.css);
+
+@import url(../blocks/profile/profile.css);
+@import url(../blocks/profile/__activity-btn/profile__activity-btn.css);
+@import url(../blocks/profile/__activity-btn/_delete/profile__activity-btn_delete.css);
+@import url(../blocks/profile/__activity-btn/_add/profile__activity-btn_add.css);
+@import url(../blocks/profile/__activity-btns/profile__activity-btns.css);
+@import url(../blocks/profile/__activity-img/profile__activity-img.css);
+@import url(../blocks/profile/__activity-img/_add/profile__activity-img_add.css);
+@import url(../blocks/profile/__activity-img/_delete/profile__activity-img_delete.css);
+@import url(../blocks/profile/__avatar-img/profile__avatar-img.css);
+@import url(../blocks/profile/__bio/profile__bio.css);
+@import url(../blocks/profile/__bio/_string/prodile__bio_string.css);
+@import url(../blocks/profile/__bio-btn/profile__bio-btn.css);
+@import url(../blocks/profile/__bio-img/profile__bio-img.css);
+@import url(../blocks/profile/__info/profile__info.css);
+@import url(../blocks/profile/__job/profile__job.css);
+@import url(../blocks/profile/__name/profile__name.css);
+
+@import url(../blocks/carts/carts.css);
+@import url(../blocks/cart/cart.css);
+@import url(../blocks/cart/__delete-btn/cart__delete-btn.css);
+@import url(../blocks/cart/__delete-img/cart__delete-img.css);
+@import url(../blocks/cart/__like-btn/cart__like-btn.css);
+@import url(../blocks/cart/__like-img/cart__like-img.css);
+@import url(../blocks/cart/__main-img/cart__main-img.css);
+@import url(../blocks/cart/__texts/cart__texts.css);
+@import url(../blocks/cart/__title/cart__title.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__line/footer__line.css);
+@import url(../blocks/footer/__logo-img/footer__logo-img.css);

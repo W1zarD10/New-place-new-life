@@ -1,0 +1,6 @@
+.profile__info{
+    max-height :175px; 
+    display: flex;
+    align-items: center;
+    column-gap: 36px;
+}

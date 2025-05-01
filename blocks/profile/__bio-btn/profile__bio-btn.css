@@ -1,0 +1,9 @@
+.profile__bio-btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.profile__bio-btn :hover{
+    opacity: 60%;
+    transition: 0.7s;
+}

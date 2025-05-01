@@ -1,0 +1,9 @@
+.profile__activity-btn{
+    background-color: transparent;
+    border: none;   
+    cursor: pointer;
+}
+.profile__activity-btn :hover {
+    opacity: 60%;
+    transition: 0.7s;
+}
