@@ -8,3 +8,8 @@
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+@media screen and (max-width: 320px) {
+    .cart__texts {
+        column-gap: 98px;
+    }
+}

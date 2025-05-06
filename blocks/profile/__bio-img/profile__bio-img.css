@@ -1,0 +1,6 @@
+@media screen and (max-width: 320px) {
+    .profile__bio-img {
+        width: 100%;
+        max-width: 65px;
+    }
+}

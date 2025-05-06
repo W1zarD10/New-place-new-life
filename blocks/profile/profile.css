@@ -4,3 +4,19 @@
     max-height: 175px;
     justify-content: space-between;
 }
+@media screen and (max-width: 1024px) {
+    .profile {
+        max-width: 952px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 320px) {
+    .profile {
+        width: 100%;
+        max-width: 266px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        row-gap: 100px;
+        max-height: 359px;
+    }
+}

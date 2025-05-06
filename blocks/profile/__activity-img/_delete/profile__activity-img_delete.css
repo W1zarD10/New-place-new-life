@@ -1,0 +1,5 @@
+@media screen and (max-width: 1024px) {
+    .profile__activity-img_delete{
+        max-width: 57px;
+    }
+}

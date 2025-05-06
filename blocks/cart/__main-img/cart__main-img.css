@@ -4,3 +4,9 @@
     display: block;
     position: relative;
 }
+@media screen and (max-width: 320px) {
+    .cart__main-img {
+       width: 100%;
+       max-width: 320px; 
+    }
+}

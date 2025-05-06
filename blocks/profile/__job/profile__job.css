@@ -3,3 +3,8 @@
     font-weight: 800;
     line-height: 160%;
 }
+@media screen and (max-width: 1024px) {
+    .profile__job{
+        font-size: 12px;
+    }
+}

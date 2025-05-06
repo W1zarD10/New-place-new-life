@@ -2,4 +2,16 @@
     display: flex;
     column-gap: 21px;
     align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 1024px) {
+    .prodile__bio_string {
+        column-gap: 21px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .prodile__bio_string {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
 }

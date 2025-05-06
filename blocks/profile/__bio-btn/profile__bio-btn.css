@@ -2,8 +2,16 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
+    margin: 0;
+    padding: 0;
 }
 .profile__bio-btn :hover{
     opacity: 60%;
     transition: 0.7s;
+}
+@media screen and (max-width: 320px) {
+    .profile__bio-btn {
+        width: 100%;
+        max-width: 65px;
+    }
 }

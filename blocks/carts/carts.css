@@ -1,7 +1,22 @@
 .carts{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 43px 30px;
     color: black;
     margin-top: 96px;
+}
+@media screen and (max-width: 1024px) {
+    .carts {
+        margin-top: 134px;
+        gap: 40px 34px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .carts {
+        margin-top: 23px;
+        width: 100%;
+        max-width: 320px;
+        row-gap: 40px;
+    }
 }

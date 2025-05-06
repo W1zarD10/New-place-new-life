@@ -6,3 +6,10 @@
   font-family: "Inter", sans-serif;
   color: white;
 }
+@media screen and (max-width: 320px) {
+    .page {
+      margin: 39px auto 0;
+      width: 100%;
+      max-width: 320px;
+    }
+}

@@ -2,3 +2,15 @@
     display: flex;
     flex-direction: column;
 }
+@media screen and (max-width: 1024px) {
+    .profile__bio {
+        width: 100%;
+        max-width: 250px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .profile__bio {
+        width: 100%;
+        max-width: 209px;
+    }
+}

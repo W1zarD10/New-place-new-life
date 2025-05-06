@@ -2,5 +2,15 @@
     max-height :175px; 
     display: flex;
     align-items: center;
-    column-gap: 36px;
+}
+@media screen and (max-width: 1024px) {
+    .profile__info {
+        margin-right: 218px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .profile__info {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
 }

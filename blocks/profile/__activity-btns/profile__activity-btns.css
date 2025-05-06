@@ -1,0 +1,19 @@
+@media screen and (max-width: 1024px) {
+    .profile__activity-btns{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 265px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .profile__activity-btns{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        max-width: 266px;
+        column-gap: 16px;
+    }
+}
